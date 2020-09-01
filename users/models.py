@@ -5,8 +5,8 @@ from vcode import digits as generate_code
 
 
 class User(AbstractUser):
-# сравнил варианты choice полей из документации,
-# с использованием класса для меня показалась самой короткой и простой
+    # сравнил варианты choice полей из документации,
+    # с использованием класса для меня показалась самой короткой и простой
     class UserRole(models.TextChoices):
         USER = 'user'
         MODERATOR = 'moderator'
