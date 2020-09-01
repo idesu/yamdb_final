@@ -1,4 +1,4 @@
-![yamdb workflow](https://github.com/idesu/yamdb_final/workflows/yamdb%20workflow/badge.svg)
+![yamdb workflow](https://github.com/idesu/yamdb_final/workflows/yamdb/badge.svg)
 # Докеризация API для Ya|MDb. Интернет-сервис о кино на базе Django REST
 
 Тренировочный проект в рамках учебного курса Яндекс.Практикум
