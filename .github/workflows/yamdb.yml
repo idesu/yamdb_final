@@ -1,4 +1,4 @@
-name: Flask-app workflow
+name: yamdb workflow
 
 on: [push]
 
@@ -18,7 +18,7 @@ jobs:
         pip install flake8 pytest
         pip install -r requirements.txt
     - name: Lint with flake8
-      run: flake8 .
+      run: flake8 . --ignore=E501 --exclude=api_yamdb/settings.py, tests/*
 
     - name: Test with pytest
       run: pytest
