@@ -57,5 +57,3 @@ docker-compose down
 [Docker cheatsheet](http://dockerlabs.collabnix.com/docker/cheatsheet/) <br>
 
 [Django loaddata документация](https://docs.djangoproject.com/en/3.0/ref/django-admin/#django-admin-dumpdata) <br>
-
-[README API_YaMDb](https://github.com/Gregog/api_yamdb/blob/master/README.md) <br>
